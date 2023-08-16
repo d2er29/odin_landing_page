@@ -1,20 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+div {
+  margin: 0;
+  padding: 0;
+}
 .top {
-
+  display: flex;
 }
 .header {
   display: flex;
   flex: auto;
-  justify-content: left;
-  align-items: start;
-  margin: 0;
+  justify-content: center;
 }
 .logo {
+  margin-right: auto;
+}
+.man {
   flex: 0 0 25px;
   height: 25px;
   margin: 0;
 }
 .hlinks {
-  flex: auto;
-  margin-left: auto;
-  margin-right: 0;
+
+}
+.tlink {
+  white-space: nowrap;
+  text-decoration: none;
 }
