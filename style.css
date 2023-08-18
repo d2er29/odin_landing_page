@@ -110,25 +110,33 @@ h4 {
 }
 .quote {
   text-align: left;
-  width: 600px;
+  max-width: 600px;
 }
 .author {
   text-align: right;
-  width: 600px;
+  max-width: 600px;
 }
 .bottom {
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 50vh;
 }
 .adbox {
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 10px;
   display: flex;
   flex-direction: row;
+  flex-basis: 600px;
+  padding: 0 70px;
 }
 .adbox>button {
+  border-radius: 5px;
   height: min-content;
+  white-space: nowrap;
   background-color: blue;
   color: white;
   margin-top: auto;
   margin-bottom: auto;
-
 }
