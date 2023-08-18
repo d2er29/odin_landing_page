@@ -83,3 +83,16 @@ h4 {
   flex-direction: column;
   width: 175px;
 }
+.bmid {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #E5E7EB;
+}
+.quote {
+  text-align: center;
+}
+.author {
+  text-align: right;
+}
