@@ -9,27 +9,29 @@ div {
   padding: 0;
 }
 .top {
-  padding: 0 15px;
+  padding: 15px 30px 35px;
   background-color: #1F2937;
   color: white;
 }
 .header {
   display: flex;
   flex: auto;
-  justify-content: center;
+  justify-content: space-between;
 }
 .logo {
-  display: flex;
   margin-right: auto;
+  display: flex;
   align-items: center;
   gap: 4px;
   background-color: gray;
   border: 2px solid black;
   padding-right: 4px;
+  border-radius: 5px;
 }
 .man {
   flex: 0 0 25px;
   height: 25px;
+  border-radius: 5px;
 }
 span.man {
   font-size: 25px;
@@ -46,13 +48,13 @@ span.man {
 }
 .bheader {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .text1 {
   display: flex;
   flex-direction: column;
   flex: auto;
-  max-width: 250px;
+  max-width: 300px;
 }
 .bigspace {
   width: 500px;
@@ -84,16 +86,17 @@ h4 {
 .icon {
   display: flex;
   justify-content: space-between;
-  width: 600px;
+  width: 800px;
 }
 .icons {
-  width: 75px;
-  height: 75px;
+  width: 120px;
+  height: 120px;
+  border-radius: 17px;
 }
 .info {
   display: flex;
   flex-direction: column;
-  width: 75px;
+  width: 120px;
 }
 .bmid {
   display: flex;
@@ -110,11 +113,14 @@ h4 {
 }
 .quote {
   text-align: left;
-  max-width: 600px;
+  max-width: 800px;
 }
-.author {
+div.author {
+  justify-content: center;
+  width: 800px;
+}
+div.author > p {
   text-align: right;
-  max-width: 600px;
 }
 .bottom {
   display: flex;
@@ -128,15 +134,18 @@ h4 {
   border-radius: 10px;
   display: flex;
   flex-direction: row;
-  flex-basis: 600px;
+  flex-basis: 800px;
   padding: 0 70px;
+  gap: 30px;
 }
 .adbox>button {
-  border-radius: 5px;
   height: min-content;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+button {
+  border-radius: 5px;
   white-space: nowrap;
   background-color: blue;
   color: white;
-  margin-top: auto;
-  margin-bottom: auto;
 }
