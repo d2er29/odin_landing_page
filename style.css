@@ -134,7 +134,7 @@ div.author > p {
   border-radius: 10px;
   display: flex;
   flex-direction: row;
-  flex-basis: 800px;
+  flex-basis: 660px;
   padding: 0 70px;
   gap: 30px;
 }
