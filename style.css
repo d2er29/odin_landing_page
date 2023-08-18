@@ -1,4 +1,6 @@
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
 }
@@ -67,32 +69,66 @@ h3 {
   font-size: 18px;
   color: #E5E7EB;
 }
+.tmid {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 36px;
+  align-items: center;
+}
 h4 {
   text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
 }
 .icon {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 600px;
 }
 .icons {
-  width: 175px;
-  height: 175px;
+  width: 75px;
+  height: 75px;
 }
 .info {
   display: flex;
   flex-direction: column;
-  width: 175px;
+  width: 75px;
 }
 .bmid {
   display: flex;
   flex-direction: column;
-  width: 600px;
-  margin: 0 auto;
   background-color: #E5E7EB;
+  align-items: center;
+}
+.quote,
+.author {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
 }
 .quote {
-  text-align: center;
+  text-align: left;
+  width: 600px;
 }
 .author {
   text-align: right;
+  width: 600px;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+.adbox {
+  display: flex;
+  flex-direction: row;
+}
+.adbox>button {
+  height: min-content;
+  background-color: blue;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+
 }
