@@ -34,7 +34,8 @@ div {
   border-radius: 5px;
 }
 span.man {
-  font-size: 25px;
+  font-size: 24px;
+  color: F9FAF8;
 }
 .hlinks {
   display: flex;
@@ -44,7 +45,8 @@ span.man {
 .tlink {
   white-space: nowrap;
   text-decoration: none;
-  color: white;
+  color: #E5E7EB;
+  font-size: 18px;
 }
 .bheader {
   display: flex;
@@ -86,17 +88,21 @@ h4 {
 .icon {
   display: flex;
   justify-content: space-between;
-  width: 800px;
+  width: 1000px;
 }
 .icons {
-  width: 120px;
-  height: 120px;
+  width: 175px;
+  height: 175px;
   border-radius: 17px;
+  border: 4px solid #3882F6;
 }
 .info {
   display: flex;
   flex-direction: column;
-  width: 120px;
+  width: 175px;
+  font-size: 12px;
+  text-align: center;
+  gap: 10px;
 }
 .bmid {
   display: flex;
@@ -129,7 +135,7 @@ div.author > p {
   min-height: 50vh;
 }
 .adbox {
-  background-color: lightblue;
+  background-color: #3882F6;
   border: 1px solid black;
   border-radius: 10px;
   display: flex;
@@ -137,6 +143,10 @@ div.author > p {
   flex-basis: 660px;
   padding: 0 70px;
   gap: 30px;
+  color: white;
+}
+h5 {
+  font-size: 24px;
 }
 .adbox>button {
   height: min-content;
@@ -146,6 +156,7 @@ div.author > p {
 button {
   border-radius: 5px;
   white-space: nowrap;
-  background-color: blue;
+  background-color:  #3882F6;
   color: white;
+  border-color: white;
 }
